@@ -403,11 +403,6 @@ const CuocHen = ({ type, setType }) => {
                     <Text style={{ fontFamily: 'Nunito-R', fontSize: 14, color: 'white' }}>Hủy</Text>
                   </TouchableOpacity>)
               )}
-              {displayConnect === appointment._id && (
-                <TouchableOpacity style={{ borderRadius: 5, backgroundColor: '#ff2222', flexDirection: 'row', justifyContent: 'center', alignItems: 'center', height: 30, paddingHorizontal: 10 }}>
-                  <Text style={{ color: 'white', fontFamily: 'Nunito-B' }}>Tham Gia</Text>
-                </TouchableOpacity>
-              )}
             </View>
 
           </View>
